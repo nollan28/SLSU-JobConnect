@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif; /* Ensure this font is available */
+    background-image: url('imagebackground.png'); /* Update with the correct path to your image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+}
+
+.login-box {
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.textbox {
+    position: relative; /* Use relative positioning */
+    margin-bottom: 10px; /* Space between fields */
+}
+
+.textbox input,
+.textbox select { /* Combine styles for input and select */
+    width: 60%; /* Full width for all elements */
+    height: 30px; /* Consistent height for input and select */
+    padding: 0 10px; /* Padding inside the fields */
+    font-family: Arial, sans-serif; /* Consistent font family */
+    font-size: 14px; /* Same font size */
+    font-weight: 100; /* Same font weight */
+    background: #ffffff; /* White background */
+    border-radius: 6px; /* Rounded corners */
+    border: 1px solid #bcc1ca; /* Neutral border color */
+    outline: none; /* Remove outline */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.textbox input:hover,
+.textbox select:hover {
+    border-color: #a7adb7; /* Change border color on hover */
+}
+
+.textbox input:focus,
+.textbox select:focus {
+    border-color: #9095a0; /* Change border color when focused */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Primary color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for background */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}

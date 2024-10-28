@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('imagebackground.png'); /* Update with the path to your image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+}
+
+.login-box {
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.textbox {
+    position: relative; /* Use relative positioning */
+    margin-bottom: 15px; /* Space between fields */
+}
+
+.textbox input {
+    width: 100%; /* Full width */
+    height: 52px; 
+    padding: 0 20px; /* Horizontal padding */
+    font-family: Inter, sans-serif; 
+    font-size: 24px; 
+    line-height: 50px; 
+    font-weight: 400; 
+    background: #ffffff; /* white */
+    border-radius: 6px; /* Rounded corners */
+    border: 1px solid #bcc1ca; /* Neutral color */
+    outline: none; 
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.textbox input:hover {
+    color: #171a1f; /* Dark text on hover */
+    border-color: #a7adb7; /* Change border color on hover */
+}
+
+.textbox input:focus {
+    color: #171a1f; /* Dark text when focused */
+    border-color: #9095a0; /* Change border color when focused */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Primary color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for background */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
